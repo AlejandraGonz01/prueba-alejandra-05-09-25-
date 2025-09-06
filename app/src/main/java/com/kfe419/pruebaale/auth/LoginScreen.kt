@@ -1,6 +1,6 @@
-package com.kfe419.pruebaale.ui.theme.auth
+package com.kfe419.pruebaale.auth
 
-import com.kfe419.pruebaale.ui.theme.navigation.AppScreens
+import com.kfe419.pruebaale.navigation.AppScreens
 import android.widget.Toast
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.KeyboardOptions

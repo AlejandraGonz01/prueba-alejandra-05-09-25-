@@ -1,4 +1,4 @@
-package com.kfe419.pruebaale.ui.theme.ViewModel
+package com.kfe419.pruebaale.ViewModel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

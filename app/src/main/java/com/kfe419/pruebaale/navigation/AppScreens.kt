@@ -1,4 +1,4 @@
-package com.kfe419.pruebaale.ui.theme.navigation
+package com.kfe419.pruebaale.navigation
 
 sealed class AppScreens(val route: String){
     object InitialScreen: AppScreens("initial_screen")

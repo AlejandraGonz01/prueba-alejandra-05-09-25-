@@ -1,4 +1,4 @@
-package com.kfe419.pruebaale.ui.theme.navigation
+package com.kfe419.pruebaale.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
@@ -6,10 +6,10 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
-import com.kfe419.pruebaale.ui.theme.auth.InitialScreen
-import com.kfe419.pruebaale.ui.theme.auth.LoginScreen
-import com.kfe419.pruebaale.ui.theme.auth.SignUpScreen
-import com.kfe419.pruebaale.ui.theme.screens.NotasScreen
+import com.kfe419.pruebaale.auth.InitialScreen
+import com.kfe419.pruebaale.auth.LoginScreen
+import com.kfe419.pruebaale.auth.SignUpScreen
+import com.kfe419.pruebaale.screens.NotasScreen
 
 @Composable
 fun AppNavigation() {

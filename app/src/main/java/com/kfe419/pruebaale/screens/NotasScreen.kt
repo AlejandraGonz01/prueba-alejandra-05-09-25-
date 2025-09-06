@@ -1,4 +1,4 @@
-package com.kfe419.pruebaale.ui.theme.screens
+package com.kfe419.pruebaale.screens
 
 import android.widget.Toast
 import android.content.Context
@@ -18,10 +18,10 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
-import com.kfe419.pruebaale.ui.theme.ViewModel.Note
-import com.kfe419.pruebaale.ui.theme.ViewModel.NotesViewModel
-import com.kfe419.pruebaale.ui.theme.ViewModel.NotesViewModelFactory
-import com.kfe419.pruebaale.ui.theme.navigation.AppScreens
+import com.kfe419.pruebaale.ViewModel.Note
+import com.kfe419.pruebaale.ViewModel.NotesViewModel
+import com.kfe419.pruebaale.ViewModel.NotesViewModelFactory
+import com.kfe419.pruebaale.navigation.AppScreens
 
 @Composable
 fun NotasScreen(

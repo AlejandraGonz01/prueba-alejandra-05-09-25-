@@ -1,4 +1,4 @@
-package com.kfe419.pruebaale.ui.theme.auth
+package com.kfe419.pruebaale.auth
 
 import android.widget.Toast
 import androidx.compose.foundation.layout.*
@@ -16,8 +16,8 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import com.kfe419.pruebaale.R
-import com.kfe419.pruebaale.ui.theme.model.UserModel
-import com.kfe419.pruebaale.ui.theme.navigation.AppScreens
+import com.kfe419.pruebaale.model.UserModel
+import com.kfe419.pruebaale.navigation.AppScreens
 
 @Composable
 fun SignUpScreen(
